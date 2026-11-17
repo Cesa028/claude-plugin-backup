@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.bak
+*.spec
+.venv/
+.omc/
+backups/
+_old/

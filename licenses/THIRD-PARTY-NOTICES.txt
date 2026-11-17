@@ -1,0 +1,43 @@
+Plugin Backup per Claude Code — componenti di terze parti / Third-party components
+==================================================================================
+
+Plugin Backup è distribuito con licenza MIT (vedi LICENSE.txt).
+Il programma include i seguenti componenti, ciascuno con la propria licenza.
+Plugin Backup is MIT-licensed (see LICENSE.txt). It bundles the following
+components, each under its own license.
+
+Plugin Backup non è un prodotto di Anthropic e non è affiliato ad Anthropic;
+"Claude" e "Claude Code" sono marchi dei rispettivi proprietari.
+Plugin Backup is not affiliated with Anthropic; "Claude" and "Claude Code"
+are trademarks of their respective owners.
+
+
+1) Qt 6 / PySide6 / Shiboken6  —  Qt6*.dll, PySide6, shiboken6
+-------------------------------------------------------------------------------
+Versione / Version: 6.12.0
+Licenza / License:  GNU Lesser General Public License v3 (LGPL-3.0)
+                    — vedi LGPL-3.0.txt e GPL-3.0.txt
+Sito / Website:     https://www.qt.io  ·  https://doc.qt.io/qtforpython/
+Sorgenti / Source:  https://code.qt.io/cgit/qt/  ·  https://code.qt.io/cgit/pyside/pyside-setup.git/
+
+Le librerie Qt sono collegate dinamicamente e installate come file .dll
+separati (cartella "_internal\PySide6"): possono essere sostituite con altre
+versioni compatibili, come previsto dalla LGPL v3. Il codice sorgente completo
+di Plugin Backup e lo script di build sono inoltre nella cartella "source".
+Qt libraries are dynamically linked and installed as separate .dll files
+("_internal\PySide6" folder), so they can be replaced with compatible versions
+as the LGPL v3 requires. The complete source code of Plugin Backup and its
+build script are also included in the "source" folder.
+
+
+2) Python  —  python313.dll e libreria standard
+-------------------------------------------------------------------------------
+Versione / Version: 3.13
+Licenza / License:  Python Software Foundation License — vedi Python-LICENSE.txt
+Sito / Website:     https://www.python.org
+
+
+3) Microsoft Visual C++ Runtime  —  vcruntime140*.dll, msvcp140*.dll
+-------------------------------------------------------------------------------
+File ridistribuibili Microsoft, inclusi senza modifiche.
+Redistributable Microsoft files, included unmodified.
